@@ -170,6 +170,7 @@
   }
   .popular .news-tab {
     width: auto;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -184,5 +185,8 @@
   }
   .popular .news-tab {
     width: auto;
+  }
+  .popular .news-tab {
+    font-size: 0.8rem;
   }
 }
