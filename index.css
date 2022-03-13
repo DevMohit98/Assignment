@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+:root {
+  --bg: #212121;
+  --nav-font: "Poppins", sans-serif;
+  --logo-font: "Playfair Display", serif;
+  --news-tab: #be2819;
+  --link-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-nav {
+  background-color: var(--bg);
+}
+.btn-dark {
+  background-color: var(--bg);
+}
+.btn-dark:focus {
+  background-color: var(--bg);
+}
+.nav-link {
+  color: var(--link-color);
+  font-family: var(--nav-font);
+}
+.nav-link:hover {
+  color: var(--link-color);
+  font-family: var(--nav-font);
+}
+.nav-link .fa-brands {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--link-color);
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-item {
+  font-family: var(--nav-font);
+}
+.logo {
+  font-size: 7rem;
+  text-decoration: none;
+  font-family: var(--logo-font);
+  color: var(--link-color);
+  text-transform: uppercase;
+}
+.logo:hover {
+  color: var(--link-color);
+}
+.logo-container {
+  background-color: #1b1b1b;
+}
+.news-tab .active {
+  background-color: var(--link-color);
+  color: var(--nav-font);
+}
+.news-tab {
+  background-color: var(--news-tab);
+}
+.news-tab .nav-item:hover {
+  background-color: var(--link-color);
+}
+.news-tab .nav-link:hover {
+  color: var(--bg);
+}
+.search-icon a {
+  color: var(--link-color);
+}
+.search-icon .nav-link:hover {
+  color: var(--link-color);
+}
+.latest-news,
+.popular,
+.entertainment,
+.business,
+.tv,
+.sports {
+  color: var(--bg);
+  font-family: var(--nav-font);
+}
+.news-link {
+  color: var(--bg);
+  font-family: var(--nav-font);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.news-link:hover {
+  color: var(--bg);
+}
+.news-desc {
+  width: auto;
+}
+.news-detail {
+  font-family: var(--nav-font);
+  color: gray;
+}
+.popular .news-tab .active {
+  background-color: white;
+  color: var(--nav-font);
+}
+.popular .news-tab {
+  background-color: grey;
+}
+.footer {
+  background-color: #1b1b1b;
+}
+.footer-heading {
+  color: #c2c2c2;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--nav-font);
+}
+.copyright-text {
+  color: #c2c2c2;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.entertainment .news-link {
+  font-size: 1rem;
+}
+.business .news-link {
+  font-size: 1rem;
+}
+.tv .news-link {
+  font-size: 1rem;
+}
+.sports .news-link {
+  font-size: 1rem;
+}
+.footer a:hover {
+  color: gray;
+}
+@media screen and (min-width: 992px) {
+  .logo {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 786px) and (max-width: 992px) {
+  .logo {
+    font-size: 4rem;
+  }
+  .news-tab nav {
+    width: auto;
+  }
+  .news-link {
+    font-size: 0.7rem;
+    line-height: 1px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 786px) {
+  .logo {
+    font-size: 2rem;
+  }
+  .news-tab ul {
+    width: auto;
+  }
+  .news-link {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    font-size: 2rem;
+  }
+  .news-tab ul {
+    width: auto;
+  }
+  .news-link {
+    font-size: 0.7rem;
+  }
+}
