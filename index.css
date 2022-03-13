@@ -105,6 +105,7 @@
 }
 .popular .news-tab {
   background-color: grey;
+  width: 90%;
 }
 .footer {
   background-color: #1b1b1b;
@@ -153,6 +154,9 @@
     font-size: 0.7rem;
     line-height: 1px;
   }
+  .popular .news-tab {
+    width: 65%;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 786px) {
   .logo {
@@ -164,6 +168,9 @@
   .news-link {
     font-size: 0.7rem;
   }
+  .popular .news-tab {
+    width: auto;
+  }
 }
 @media screen and (max-width: 576px) {
   .logo {
@@ -174,5 +181,8 @@
   }
   .news-link {
     font-size: 0.7rem;
+  }
+  .popular .news-tab {
+    width: auto;
   }
 }
