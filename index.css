@@ -14,6 +14,7 @@
 }
 .top-nav {
   background-color: var(--bg);
+  height: 2vh;
 }
 .btn-dark {
   background-color: var(--bg);
@@ -83,6 +84,30 @@
   color: var(--bg);
   font-family: var(--nav-font);
 }
+.latest-news {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.entertainment h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.business h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tv h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.sports h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.popular h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .news-link {
   color: var(--bg);
   font-family: var(--nav-font);
@@ -143,7 +168,7 @@
     font-size: 5rem;
   }
   .popular .news-tab {
-    width: 100%;
+    width: 90%;
     font-size: 0.7rem;
   }
 }
