@@ -142,6 +142,10 @@
   .logo {
     font-size: 5rem;
   }
+  .popular .news-tab {
+    width: 80%;
+    font-size: 0.7rem;
+  }
 }
 @media screen and (min-width: 786px) and (max-width: 992px) {
   .logo {
